@@ -1,4 +1,4 @@
-package Module1.Assesment;
+package Module1.Assignment;
 
 import java.util.*;
 
