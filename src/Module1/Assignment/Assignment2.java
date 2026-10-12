@@ -147,7 +147,7 @@ class ShoppingCart {
     }
 }
 
-public class Assesment2 {
+public class Assignment2 {
     private static final Scanner sc = new Scanner(System.in);
     private static final ShoppingCart cart = new ShoppingCart();
 
