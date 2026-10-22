@@ -5,6 +5,7 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/spring-core-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringCoreFundamentals/pom.xml" />
       </list>
     </option>
   </component>
