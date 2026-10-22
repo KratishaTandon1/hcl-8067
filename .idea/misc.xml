@@ -6,6 +6,7 @@
       <list>
         <option value="$PROJECT_DIR$/spring-core-demo/pom.xml" />
         <option value="$PROJECT_DIR$/SpringCoreFundamentals/pom.xml" />
+        <option value="$PROJECT_DIR$/hclhrms/pom.xml" />
       </list>
     </option>
   </component>

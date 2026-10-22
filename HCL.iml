@@ -6,6 +6,7 @@
       <sourceFolder url="file://$MODULE_DIR$/hcl-2300320100125" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/hcl-2300320100125/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/hclhrms" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
