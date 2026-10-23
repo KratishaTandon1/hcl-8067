@@ -9,16 +9,15 @@
         <module name="hrms" />
         <module name="SpringCoreFundamentals" />
         <module name="hclhrms" />
+        <module name="hrms-app" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="spring-core-demo" target="27" />
-    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="hclhrms" options="-parameters" />
       <module name="hrms" options="-parameters" />
+      <module name="hrms-app" options="-parameters" />
     </option>
   </component>
 </project>
