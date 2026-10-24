@@ -38,11 +38,27 @@ public class EmpRepInf implements EmployeeRepo{
 
     @Override
     public String deleteById(long empid) {
-        return "";
+        boolean status=false;
+        if(getEmpById(empid)!=null){
+            emplist.removeIf(e->e.getEmp_id()==empid);
+            status=true;
+        }
+        if(status){
+            return "Employee deleted succsessfully!";
+        }
+        else{
+            return "Employee id is not registered bro with id "+empid+"!!";}
     }
 
     @Override
-    public String updateById(long empid, Employee updatedEmp) {
-        return "";
+    public String updateById(long empid) {
+        Employee existingemp=  getEmpById(empid);
+        if(existingemp!=null){
+            existingemp.setEmail("david@gmail.com");
+        }
+
+
+
+        return "Employe updated!!!!!!!";
     }
 }

@@ -35,4 +35,10 @@ public class EmployeeServiceImp {
         );
         return emprepo.addEmpBulk(employeeList);
     }
+    public String deletebyid(){
+        return emprepo.deleteById(897);
+    }
+    public String updatebyid(){
+        return emprepo.updateById(897);
+    }
 }
