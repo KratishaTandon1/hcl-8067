@@ -2,6 +2,7 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
@@ -9,7 +10,18 @@
         <module name="hrms" />
         <module name="SpringCoreFundamentals" />
         <module name="hclhrms" />
+        <module name="hrmsdatabase" />
         <module name="hrms-app" />
+      </profile>
+      <profile name="Annotation profile for jwtdemo" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.48/lombok-1.18.48.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.48/lombok-1.18.48.jar" />
+        </processorPath>
+        <module name="jwtdemo" />
       </profile>
     </annotationProcessing>
   </component>
@@ -18,6 +30,8 @@
       <module name="hclhrms" options="-parameters" />
       <module name="hrms" options="-parameters" />
       <module name="hrms-app" options="-parameters" />
+      <module name="hrmsdatabase" options="-parameters" />
+      <module name="jwtdemo" options="-parameters" />
     </option>
   </component>
 </project>

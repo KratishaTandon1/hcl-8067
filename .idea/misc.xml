@@ -9,6 +9,9 @@
         <option value="$PROJECT_DIR$/hclhrms/pom.xml" />
         <option value="$PROJECT_DIR$/hrms/pom.xml" />
         <option value="$PROJECT_DIR$/hrms-app/pom.xml" />
+        <option value="$PROJECT_DIR$/hrmsdatabase/hrmsdatabase/pom.xml" />
+        <option value="$PROJECT_DIR$/hrmsdatabase/pom.xml" />
+        <option value="$PROJECT_DIR$/Module3/jwtDemo/backend/pom.xml" />
       </list>
     </option>
   </component>

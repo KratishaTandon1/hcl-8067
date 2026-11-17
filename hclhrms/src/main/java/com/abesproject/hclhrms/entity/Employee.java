@@ -6,7 +6,13 @@ public class Employee {
     private String designation;
     private String progStack;
     private String email;
+    private String password;
 
+    // 1. Default constructor
+    public Employee() {
+    }
+
+    // 2. 5 arguments wala constructor (purane code ke liye)
     public Employee(long emp_id, String emp_name, String designation, String progStack, String email) {
         this.emp_id = emp_id;
         this.emp_name = emp_name;
@@ -14,12 +20,15 @@ public class Employee {
         this.progStack = progStack;
         this.email = email;
     }
-    public String getProgStack() {
-        return progStack;
-    }
 
-    public void setProgStack(String progStack) {
+    // 3. 6 arguments wala constructor (password ke sath - iski kami thi)
+    public Employee(long emp_id, String emp_name, String designation, String progStack, String email, String password) {
+        this.emp_id = emp_id;
+        this.emp_name = emp_name;
+        this.designation = designation;
         this.progStack = progStack;
+        this.email = email;
+        this.password = password;
     }
 
     public long getEmp_id() {
@@ -46,6 +55,14 @@ public class Employee {
         this.designation = designation;
     }
 
+    public String getProgStack() {
+        return progStack;
+    }
+
+    public void setProgStack(String progStack) {
+        this.progStack = progStack;
+    }
+
     public String getEmail() {
         return email;
     }
@@ -54,6 +71,11 @@ public class Employee {
         this.email = email;
     }
 
+    public String getPassword() {
+        return password;
+    }
 
-
+    public void setPassword(String password) {
+        this.password = password;
+    }
 }

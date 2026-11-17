@@ -9,7 +9,7 @@ import com.hcl.library.service.LibraryService;
 
 import java.util.Scanner;
 
-public class Main {
+public class 1Main {
     public static void main(String[] args) {
         LibraryService service = new LibraryService();
         Scanner sc = new Scanner(System.in);
