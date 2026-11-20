@@ -1,5 +1,9 @@
 {
   "dependencies": {
     "bootstrap": "^5.3.9"
+  },
+  "devDependencies": {
+    "@babel/preset-react": "^8.0.1",
+    "@testing-library/jest-dom": "^8.0.0"
   }
 }
